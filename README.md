@@ -23,7 +23,7 @@ This assignment implements a **distributed weather aggregation system** with 3 m
 
 ### Compile
 ```bash
-javac -cp "lib/*" -d out $(find src -name "*.java")
+javac -cp "lib/*" -d out $(find src/main -name "*.java")
 ```
 
 ### Start Server
@@ -69,7 +69,7 @@ wind_spd_kt:8
 This project included Junit Tests function, it can help to test all the files in a simple step.
 Complie test file:
 ```bash
-javac -cp "out:lib/*" -d out src/test/AggregationServerTest.java
+javac -cp "out:lib/*" -d out $(find src/test -name "*.java")
 ```
 Run tests:
 ```bash
