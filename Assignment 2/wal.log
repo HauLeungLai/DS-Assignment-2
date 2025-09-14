@@ -1,0 +1,21 @@
+PUT|9|cs1|IDS60901|{"id":"IDS60901","name":"Adelaide","air_temp":13.3}|2025-09-12T09:11:43.819850Z
+EXPIRE|11|cs1|2025-09-12T09:12:13.981242Z
+PUT|23|cs1|IDS60901|{"id":"IDS60901","name":"Adelaide","air_temp":13.3}|2025-09-12T09:13:24.516463Z
+EXPIRE|29|cs1|2025-09-12T09:13:55.344869Z
+PUT|33|cs1|IDS60901|{"id":"IDS60901","name":"Adelaide","air_temp":13.3}|2025-09-12T09:34:44.955110Z
+EXPIRE|39|cs1|2025-09-12T09:35:27.846781Z
+PUT|47|cs1|IDS60901|{"id":"IDS60901","name":"Adelaide","air_temp":13.3}|2025-09-12T12:28:50.741498Z
+EXPIRE|60|cs1|2025-09-12T12:29:21.011186Z
+PUT|81|cs1|IDS60901|{"id":"IDS60901","name":"Adelaide","air_temp":13.3}|2025-09-12T13:44:06.510079Z
+PUT|86|cs1|IDS60901|{"id":"IDS60901","name":"Adelaide","air_temp":13.3}|2025-09-12T13:44:11.020798Z
+EXPIRE|92|cs1|2025-09-12T13:44:41.963605Z
+PUT|96|cs1|IDS60901|{\n  "id": "IDS60901",\n  "name": "Adelaide (West Terrace / ngayirdapira)",\n  "state": "SA",\n  "time_zone": "CST",\n  "lat": -34.9,\n  "lon": 138.6,\n  "local_date_time": "15/04:00pm",\n  "local_date_time_full": 20230715160000,\n  "air_temp": 13.3,\n  "apparent_t": 9.5,\n  "cloud": "Partly cloudy",\n  "dewpt": 5.7,\n  "press": 1023.9,\n  "rel_hum": 60,\n  "wind_dir": "S",\n  "wind_spd_kmh": 15,\n  "wind_spd_kt": 8\n}|2025-09-12T14:10:05.123010Z
+EXPIRE|102|cs1|2025-09-12T14:10:35.786321Z
+PUT|107|cs1|IDS60901|{"id":"IDS60901","name":"Adelaide","air_temp":13.3}|2025-09-13T07:38:23.091530Z
+PUT|112|cs1|IDS60901|{"id":"IDS60901","name":"Adelaide","air_temp":15.0}|2025-09-13T07:38:23.113232Z
+PUT|117|cs1|IDS60901|{"id":"IDS60901","name":"Adelaide","air_temp":13.3}|2025-09-14T06:57:06.799298Z
+PUT|122|cs1|IDS60901|{"id":"IDS60901","name":"Adelaide","air_temp":15.0}|2025-09-14T06:57:06.821577Z
+PUT|142|tempCS|IDS99999|{"id":"IDS99999","name":"TempStation","air_temp":20.0}|2025-09-14T06:57:06.828014Z
+EXPIRE|144|cs1|2025-09-14T06:57:36.891884Z
+EXPIRE|145|tempCS|2025-09-14T06:57:36.893504Z
+PUT|153|crashCS|IDS77777|{"id":"IDS77777","name":"CrashTest","air_temp":12.3}|2025-09-14T06:57:37.843289Z
